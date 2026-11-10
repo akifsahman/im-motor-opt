@@ -26,9 +26,9 @@ repository. The result files are:
     (`Algorithm, Method, Efficiency[%], Violation, lambda_coef, KD_coef, Bg_coef, Kst,
     Jcos_coef, bos[mm], hos[mm], hw[mm], Bts[T], Jb[A/mm2], Btr[T], hor[mm], bor[mm],
     rotor_slot[deg], Bcr[T], k`).
-- `results/<ALGO>_M<k>_*.mat` — per-run outputs for each of the 80 combinations
-  (`verimCeza` = 30×2 matrix of [efficiency, total constraint violation] per run,
-  plus the best design and run means).
+- `results.zip` — the per-run output files (`<ALGO>_M<k>_*.mat`) for all 80 combinations;
+  each `verimCeza` is a 30×2 matrix of [efficiency, total constraint violation] per run,
+  together with the best design and the run means.
 - Random seeds used for the 30 runs are archived so that every run is reproducible.
 
 ## Code Information
